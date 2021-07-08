@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+.github-search{
+  width:90%;
+  height: 110px;
+  display: flex;
+  justify-content:center;
+  margin-top: 20px;
+}
+
+.github-search-div{
+  width: 70%;
+  color: white;
+  display: block;
+  justify-content: center;
+  border: 1px solid rgb(16, 161, 245);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+  
+}
+
+.para1{
+  background-color:#0077ff;
+  color: white;
+  height: 50px;
+  display: flex;
+  text-align: right;
+  line-height:50px;
+  padding-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  
+
+}
+
+
+.github-search-input{
+  width:30%;
+  height: 30px;
+  font-size:20px;
+  border:0;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-colo:white;
+}
+
+.github-search-input:focus{
+  border:0;
+}
+
+.button1{
+  width:100px;
+  margin-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  border:0;
+  height:30px;
+}
+
+
+.repo-container{
+  width: 70%;
+  border:1px solid rgb(16, 161, 245);
+  display:inline-block;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 20px;
+  /* background-color: gray; */
+}
+
+.repo-para2{
+  background-color: #0077ff;
+  height: 40px;
+  line-height: 40px;
+}
+
+.repo-container-para2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:20px;
+  font-weight: bold;
+  
+  margin-left: 10px;
+
+}
+
+.repo-list{
+  background-color:white;
+
+
+}
+
+.repo{
+  width:70%;
+  background-color:white;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.repo-item{
+  background-color:white;
+  list-style: none;
+  margin: 0;
+  padding: 1px;
+  display: inline-block;
+  
+}
+
+
+.repo-image{
+  width: 300px;
+  /* background-color: #0077ff; */
+  display: flex;
+  justify-content:center;
+  margin: 0;
+  padding:0;
+
+}
+
+
+
+.circular-image{
+  /* background-color: #0077ff; */
+  width:200px;
+  clip-path: circle();
+}
+
+.repo-list{
+  /* margin: 10px; */
+  padding: 10px;
+  background-color:white;
+}
+
+.repo-name1{
+  /* background-color: #0077ff; */
+  width:300px;
+  display:flex;
+  justify-content:center;
+}
+
+.repo-name2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight:bold;
+
+}
+
+.repo-item-container{
+ background-color: white; 
+display: flex;
+justify-content: space-evenly;
+width:300px;
+margin-top:10px;
+
+}
+
+.repo-item-container-child{
+  margin-left: 20px;
+padding: 10px;
+border: 1px solid black;
+background-color: white;
+border-radius:40px
+
+
+}
+
+
+
+.repo-description{
+font-weight: 400px;
+font-style: italic;
+color:gray;
+background-color: white;
+width:300px;
+margin-top:10px;
+
+}
+
+.view-button{
+  border: 0;
+  width: 300px;
+  background-color: #0077ff;
+  height: 40px;
+  margin-top: 10px;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+/* .repo-forks{ 
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  border: 1px solid black;
+  
+
+} */
+
+/* .repo-open-issues{ */
+  /* background-color: #0077ff; */
+  /* margin-left: 10px; */
+/* padding: 10px; */
+/* border: 1px solid black; */
+/* width: 100%; */
+/* float: left; */
+/* } */
+
+.repo-git-url{
+
+}
